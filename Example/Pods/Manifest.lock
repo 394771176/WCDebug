@@ -1,0 +1,48 @@
+PODS:
+  - WCCategory (0.1.9):
+    - WCCategory/Define (= 0.1.9)
+    - WCCategory/Foundation (= 0.1.9)
+    - WCCategory/UIKit (= 0.1.9)
+  - WCCategory/Define (0.1.9)
+  - WCCategory/Foundation (0.1.9):
+    - WCCategory/Define
+  - WCCategory/UIKit (0.1.9):
+    - WCCategory/Foundation
+  - WCDebug (0.1.0):
+    - WCCategory
+    - WCModel/File
+    - WCModel/Plist
+    - WCPlugin/MBProgressHUD
+  - WCModel/File (0.1.4):
+    - WCCategory
+    - WCModule/RegexKitLite
+  - WCModel/Plist (0.1.4):
+    - WCCategory
+    - WCModel/File
+  - WCModule/RegexKitLite (0.1.8)
+  - WCPlugin/MBProgressHUD (0.1.4)
+
+DEPENDENCIES:
+  - WCDebug (from `../`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - WCCategory
+    - WCModel
+    - WCModule
+    - WCPlugin
+
+EXTERNAL SOURCES:
+  WCDebug:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WCCategory: 4ea3e94f7c9c4a86181d3844b72aaa7cd70596bc
+  WCDebug: 0f727b89d49bf5ee976ab8b9f6ab69436ef369a2
+  WCModel: 268e85e647de422bdf63c01238e5d7938a8ae5e7
+  WCModule: 6efe384ffc2161e1ec7415167ae3571e19c52eff
+  WCPlugin: 3ec791e4c3b47fe0d1d7e26363acc270286db729
+
+PODFILE CHECKSUM: 2abf504bbd1f45285536b0679d18289eaab3fd2c
+
+COCOAPODS: 1.9.3

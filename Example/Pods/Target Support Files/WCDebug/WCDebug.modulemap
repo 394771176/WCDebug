@@ -1,0 +1,6 @@
+framework module WCDebug {
+  umbrella header "WCDebug-umbrella.h"
+
+  export *
+  module * { export * }
+}

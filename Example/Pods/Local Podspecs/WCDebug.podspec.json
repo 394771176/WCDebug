@@ -1,0 +1,39 @@
+{
+  "name": "WCDebug",
+  "version": "0.1.0",
+  "summary": "A short description of WCDebug.",
+  "description": "Debug功能组件，便于开发与调试",
+  "homepage": "https://github.com/394771176/WCDebug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "394771176": "394771176@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/394771176/WCDebug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "WCDebug/Classes/*.h",
+    "WCDebug/Classes/**/*"
+  ],
+  "dependencies": {
+    "WCCategory": [
+
+    ],
+    "WCModel/File": [
+
+    ],
+    "WCModel/Plist": [
+
+    ],
+    "WCPlugin/MBProgressHUD": [
+
+    ]
+  }
+}

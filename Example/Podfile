@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WCDebug_Example' do
+  pod 'WCDebug', :path => '../'
+
+#  pod 'WCCategory'
+#  pod 'WCModel/File'
+#  pod 'WCModel/Plist'
+  
+  target 'WCDebug_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

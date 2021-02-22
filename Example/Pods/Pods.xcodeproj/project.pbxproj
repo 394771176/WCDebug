@@ -1,0 +1,2017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0014412FE69B334AB0FD5636AA1EE621 /* WCCategory+NS.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AB01A41F1B9033200634840EA45B83 /* WCCategory+NS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0321994DD714C6DFF6EE8C2DED60E677 /* DTDebugListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 96ADA81BFD076F5BC5C88EE76AA95E47 /* DTDebugListCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0374929B914500E377D5186793E7385A /* WCPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE44AF782DBAF4992FDEB593711FA06 /* WCPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0789C49687CC9A14A7574D710E20B476 /* WCCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF5AF87BCFCD24310AE765E22671BED /* WCCategory.framework */; };
+		0A39E1A1C43B316F5AD346FE7E263DDB /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2AD62F69AE5107E06F5D04FFED0154 /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E2D97AE38DDFD69D1C44FC9974C4528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0602FB60CB86BA8805DC4D67E6B2C093 /* UIKit.framework */; };
+		0F52BF846F220302234B7D45585CA22A /* WCQuickUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F99CF290AB03AE700DF66E8A15782D6B /* WCQuickUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112F8B0378903579B1307A0917415C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+		125982A01C72F4D65910CB74DFA5D03F /* DTDebugListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BA73CD2CDEF33F1D1B6A1AF6C06FDB /* DTDebugListCell.m */; };
+		14E5E48ED16862938928803F87F7C52B /* MBProgressHUDAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EB5EC5D31892E4E23DC1B80A6B28BC /* MBProgressHUDAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150966D463CCB26C28D670BD9A34D925 /* WCCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF5AF87BCFCD24310AE765E22671BED /* WCCategory.framework */; };
+		17AC95143DBF627639C1FC5DDDE71836 /* UIImageView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A2C43EF4CF9642DBEEFF536FD181F9 /* UIImageView+Utils.m */; };
+		1C85787D5D31847B29A4158B443AD261 /* BPFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E602D707291B4BDD72229D2D694E2 /* BPFileUtil.m */; };
+		1CC6B7696633DB5A91EF074F28D05C81 /* UIDevice+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 229C2E6EF21728A4845F00E54E9D158D /* UIDevice+Utils.m */; };
+		1D575449CB30EE5A0375EC80601EBD62 /* NSString+md5.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDC2D030737FA3256EE089258FDBA2C /* NSString+md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7082CA7D589689A1E28AF916E12CB1 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F4C02B04EA455B812B7BB1C6B85D5 /* NSString+Utils.m */; };
+		207CAA971143C130B24154E8EB67032B /* DTDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AC2A180CF994BC5F3546BCB9373A65 /* DTDebugManager.m */; };
+		21E35069EEDB088E8E140464649AA3FB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FAE2240AB09C9549DC6476A54FB0A3 /* MBProgressHUD.m */; };
+		225D10C52D3D0B822BE7D7ABDC10D9C3 /* NSJSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EC4CA9C4FC6CE9120FE78DD7A2A9DC /* NSJSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2363E9E1D472DA7C638F25C901A4F6C6 /* NSURL+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06BD71BD865FAA8BEF9E1B84ACA8CC /* NSURL+Utils.m */; };
+		256022B136F189345A81E25E75E3F2C1 /* UIImageView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = DA39EEA7151A543CE78361E87E9E8A55 /* UIImageView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B99A4DDA85A5FD743177845D02F3FB2 /* Pods-WCDebug_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C9472FD9B0D15E3CC8582ADFB4E54 /* Pods-WCDebug_Tests-dummy.m */; };
+		2CDAC1D517B680E5EB4A88A194320B28 /* UIView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA26D08AD5F5B13A00A1CCA41DF067B /* UIView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1801A76A0827DA233C46406853E498 /* UIDevice+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F6EB56F605C3F49566C401EC226695 /* UIDevice+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F211FBA5100B40BD6B596DD18F865DA /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F2D97E1648FF3889315FA1E6343445 /* NSDictionary+Utils.m */; };
+		2FB0055033BBCBD629720134C05E72A9 /* WCModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F490B74FA55F2199439A2F8B45A02D7C /* WCModule-dummy.m */; };
+		307E2625697B9FC3616C149E06A8BFA5 /* NSURL+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8C1C44A6309C83763E258B2EE4FCD2 /* NSURL+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30DFCB1B2868D0A9D95E34C109E44E7C /* UILabel+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0A6D664FB61F5020D7102153AAC971 /* UILabel+Utils.m */; };
+		315E26EC61B82010DC1BC240786EF37A /* DTDebugTextController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8BB48D939014E99D133D0E87B19273 /* DTDebugTextController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385B591C937944458199E9112EDBAF2D /* Pods-WCDebug_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EDBB6D3ED908DC922FEA1DE46C4D62 /* Pods-WCDebug_Example-dummy.m */; };
+		3B849E37ED9CCF0148F302CC1BBF01F9 /* DTDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E24C3ECC250D2E4C3B0C85A531BF100 /* DTDebugViewController.m */; };
+		3D60E72C37EABA9C28DF5819FBB76976 /* NSJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D31D069AA1B61DD2055AEB74590E020 /* NSJSONHelper.m */; };
+		43C695956D5C41FB2D34ECB6A211DCBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+		463E4C94F6AEBE9A22F8949E47937332 /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0780B8168B371E4A8EE0EA02CA05862B /* NSObject+Utils.m */; };
+		49B927FA77995CA379D778231373E5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+		4BA621DFFC41B1EEDF51CE597305C4B6 /* WCCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5643C75288FDC1A724E0DBFA64BC4C77 /* WCCategory-dummy.m */; };
+		4CDF3A88775920C0AA689B005227BAAF /* NSData+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = AD536E93A8B7025B1E0C4BAD3C9874B9 /* NSData+md5.m */; };
+		4D1715AEDC7BFB59429B4D2A13816D71 /* NSDate+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2A86673CF75A1E3CF3510380F80257 /* NSDate+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5032D8EA4DF13F9544BE419A114F600D /* MBProgressHUDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF11C006801562498A93B84D74D79FEE /* MBProgressHUDAdditions.m */; };
+		5075EB865B11B28B77D51999E942DA9E /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A15722FDF8785FD7718F71F9A27812DD /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517783BDF22BA741DBB2BBD6B743B741 /* DTDebugLogInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AF6E76CCCC223A8ADF829FEB9AE98D /* DTDebugLogInfoView.m */; };
+		564D5BBE39F1FDD2C1B416C63AB271A2 /* DTFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B57589042F188F5CD6FF3311D9499A /* DTFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578C94D32143709A9A321B29D779829E /* NSObject+DTFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 685C79945D039AF69BE31E2DD60C3758 /* NSObject+DTFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5876E0040B825AE0431341C4C43BEDCD /* BPAppPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB26F2972A19FE0E5173925D84A380B /* BPAppPreference.m */; };
+		5B3ECE973B2BCCA8CEBDC2852ABBBC4A /* DTDebugUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C42E64ED9DC5D12373FA8058755C062 /* DTDebugUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B433FF8181AF39A3F96094A53223767 /* UIButton+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 092974EA61F9BC724607FA96B2B4F121 /* UIButton+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3DABF80113852E2A6FE882C24404D5 /* WCModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD683BE5D18F13FE902C1CB49CABA29 /* WCModule.framework */; };
+		5EFC6CF8D32DE781A2B6B9D8A18BACF2 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BC29C7F99566BAA68931CF964347A9 /* UIColor+Util.m */; };
+		603759446436CAE8C91875FA00CEC345 /* WCPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C12571843D8596D5FEB88A8EF5BBE5D /* WCPlugin.framework */; };
+		6047021B8EC83352742F7A5343A90DA0 /* NSString+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E9058BC458708A89BBDC0C749CD00 /* NSString+md5.m */; };
+		63499C3EEFC52C677F35C7E84CBB8E9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE9FCCF2D633D9CB9898CD81E52CC5E /* CoreGraphics.framework */; };
+		6983F6A56321578685404F0D70E8BE50 /* WCDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B519419C1224C6566A44CD14663E226 /* WCDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B263A7829E38F9AFF23EDF7C9E45C64 /* NSObject+DTFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 34196F29860AAA4B905DCA0806080F48 /* NSObject+DTFix.m */; };
+		6D27BA2C704ECABC37C222715B1B543C /* UITableView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8BB865A0DFDE60858DB12B33AD49A /* UITableView+Utils.m */; };
+		6E62495FB9A92B40AFD017F0CF0D510F /* UILabel+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F68F901B41845EAE701010414BA61053 /* UILabel+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A85DDCED599C3B93EB7D5052AE17A2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D878E12F9FCC9FB1F2C457577B33AD70 /* CoreText.framework */; };
+		7662A70DBF7C2AE1B61A74BBFDBA6CAD /* WCModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5770B78807C1D57872FD8F7DA3EA8E /* WCModel-dummy.m */; };
+		7DA2C0494F2D2A59C24AC2AF3F5CC7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+		7F57DA10D93DEFBB5D10730D59663751 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62512C9776A9C006192D7558DC18B7 /* UIImage+QRCode.m */; };
+		7FB3C255120CEB03EA9D8CAE417D20E5 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD883495FAD8B67EB7FB07C537781689 /* NSDate+Utils.m */; };
+		81C5D46F0E37AD8C68F5AAB74815DCCD /* JPFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 298B0207F0E915E0FC5CA7F43CABA51E /* JPFPSStatus.m */; };
+		82285F0D8AE76BAB870FD9922C32F6EF /* Pods-WCDebug_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF1A98E623216E4A83FAF69B4C5FAFB /* Pods-WCDebug_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E5632F77A1FE7359BAA86E0DE522BA /* DTAppPreferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFEDDC7367FAA1ABE608E537F1AF40F /* DTAppPreferenceManager.m */; };
+		8541194A0CB07F6823BB79BC513C7824 /* BPAppPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = B5805872C927AEBF7308FEE0825195C0 /* BPAppPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86221E53F9C241CFC080E373B9CC0ABD /* DTDebugPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD90E0364D9A245DC24AFE65654BEB3 /* DTDebugPhotosController.m */; };
+		866906AF06A5CED05D389C67DFCE1E6D /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B747F2B2A31368B5EBBEB71EA046007 /* UIView+Utils.m */; };
+		8768AA9F2CC35EE5CEB9F3356D4C5FF9 /* WCModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3886B14C847E60BC2A3E6D99DE5F2FDF /* WCModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880E482C2848AA0A0F1B267965EEA453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+		897CBD066100E639B3469F438668F580 /* WCDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9717638858E11C9F93BDABDBD6E6D068 /* WCDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B897C0CD97647A8576002B1A4E6C9A7 /* WCDebug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 197AAB5F0C6DDC6DF3A242C9621415D2 /* WCDebug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C73727773C502C1F96D78D2A8B5166F /* DTDebugFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E0F4DFBC836D8FA8582EC80A089D74 /* DTDebugFileController.m */; };
+		8EA0C6DCCCE86A0C34E373E104BC45FC /* DTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C2CE4EC565AFB733F271BABAC992F /* DTFileManager.m */; };
+		91C5E2988E99517A2C20182FA4F193F6 /* UIView+animation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC43B684B0D0C78212DECBCD3A9E490 /* UIView+animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932C67DDA13EDC5EB65C5ECA55E8CEFA /* UIImage+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 671276B578447CA880C4A75D5DE89463 /* UIImage+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D58BA085C23031B5F9B31622AB562C /* UITableView+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6A6089D8CCF89CDE4BD6615BBBC2C2 /* UITableView+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		940BC9B368FCD4BEF86436DD79601A22 /* WCCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 820E3C2066464D68B6AC08439FF195D9 /* WCCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961F29B3CFC0F8D7913CCF3EBD35029F /* WCCategory+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 597C5A2635C159283A09CF8BA96957AB /* WCCategory+UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9729357969169822E07BA2727B792626 /* NSData+md5.h in Headers */ = {isa = PBXBuildFile; fileRef = A26538F8FDE82BD4AA63C6E23773DDB8 /* NSData+md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		995C0EFE600FF42FA1F031BDB215D7CF /* Pods-WCDebug_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E800815F638D78BC295DFF76C740057 /* Pods-WCDebug_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C027D4253162D7D791373C2EE1CB3CC /* UIButton+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 444086AB55860025DED1E681FC87E6D9 /* UIButton+Utils.m */; };
+		9C11ABE10A496ABF35E01E95D3A719F0 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7227D818421E0C258A224E741FD150 /* UIViewController+Utils.m */; };
+		9E7F31E419A71C3B8F3AEC093E52585D /* DTDebugViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AEAF5301008C206EC5267C4764027DA /* DTDebugViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC7B7E1734CE466C0775CD7EB5C2619 /* DTDebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 813167BE4F0B9EE33DCCB91D6C6250B9 /* DTDebugManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A06307B4A6C2EC0414E36EC45A4E1B53 /* BPFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D12433783C6D2A7242B9526B6411F374 /* BPFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09E49C92435BECDA37CCD4826786C65 /* DTDebugPlistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6137ED8F5308A4BC9EEFDCC8F320D7 /* DTDebugPlistController.m */; };
+		A3353DDFAC6A298B9DAD00884371F0BA /* WCQuickUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D0A2FC5151324EFFE5BBF4B380AE11 /* WCQuickUI.m */; };
+		A7ED067C839A4E71C93119181661D6C7 /* DTTodayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C72CA3BD8E7A1B9C6A336811ABCF40 /* DTTodayManager.m */; };
+		AF2B4ECADF9C0D8E65464E9096F12EDF /* NSAttributedString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C072D3F5BFFB8667CAE99E0AEB97524 /* NSAttributedString+Utils.m */; };
+		AF321B5E9B934E42D26978DF873BAA5B /* NSAttributedString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = CF929A86A6C852EB49A15E14DFC8BAB3 /* NSAttributedString+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA8ABF50430F86546E4D562558B3129 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965BBC51DA9C7C7076D4A00177B49FF /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1DC30E76917BD97F71E7F77EDD91DB4 /* WCPlugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D818D7BB1DBF423766AC9A6F36B1BA9 /* WCPlugin-dummy.m */; };
+		B3D8450B7F8FD75E9C5CB65ED43310B5 /* DTDebugPlistController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F344B6CAEE74F288357620EB80CC67 /* DTDebugPlistController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CB4F929856F3E74447D694EBBB7986 /* DTAppPreferenceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF56A27259E9FFE45A0480994BF9852 /* DTAppPreferenceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83D317F7D22D3711D0ABBD37AF92730 /* UIViewController+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 041CF2A8359A8A688570F40C790F0970 /* UIViewController+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B978E2697885F7067F72A20B8F6948CA /* WCCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBE826C4A25E6E9ED27A09469FA1921 /* WCCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC71803490177E2343DE006BE9CFEB0E /* DTDebugPhotosController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C86092971B7E3D74F95ADFD4E8484B /* DTDebugPhotosController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFA3CA195E672ACDC4B909D1510C55D1 /* NSDictionary+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 47452D55DCC0BD71CC0AC1F43201F43A /* NSDictionary+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5314E257D9F75A29F98EF66265529EA /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F59C334AF95087FE9DD1C2C2FBA0939 /* NSString+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74D8B055A455B22DE667442E6EDBBF9 /* UINavigationController+PopAfterPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 684B83FF243D7C6DDDA8907A48FF1D82 /* UINavigationController+PopAfterPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C3B60EE3EAC502BD5C955A03A72297 /* NSObject+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A382CBE28DDD07313B7F93F54374201 /* NSObject+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC22A2568BD1AFD61F8F2498793A589D /* WCPluginResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 451C0BB6FD23C43988A66FE72E9551CC /* WCPluginResource.bundle */; };
+		D02DA73854ED78C60AE878091B8B255F /* WCDebug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 265C72E711B6884467B98825A3C7F8F8 /* WCDebug-dummy.m */; };
+		D175F735AE17D75DC46DD8B5CFF2C16A /* JPFPSStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 161B70C7BF0C5E516E0F7E5734A5B4B3 /* JPFPSStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29F334C10B15BE56B5630E5A980C699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+		D66F04D9E57BED46B917E9F462505892 /* UINavigationController+PopAfterPush.m in Sources */ = {isa = PBXBuildFile; fileRef = DE111570BAA6D60B6EC6684E669B1275 /* UINavigationController+PopAfterPush.m */; };
+		D6EFE2FAE910045AD89B115A3298A50A /* NSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B7366BF9AFB46AE6193D740277653 /* NSArray+Utils.m */; };
+		DAD2726E5973567DBADDB4841AD867C7 /* NSArray+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E01B704923E39785E91A87155DF859A9 /* NSArray+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAFD0962F178F5F30ACBDC2BECC98060 /* DTDebugHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D01C938A7AB3E0B4F5D7372FD7E857D /* DTDebugHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C1980FD08032D33E62CECA71D6A8F9 /* WCModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F740BFF0F1C9E8765A82D2CF293DC207 /* WCModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E14573B711897DEB0A342F27046E8BC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7E6A59DBC150132F5F35B4E8520880 /* QuartzCore.framework */; };
+		E349896344D15144A2A308306E53F805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0602FB60CB86BA8805DC4D67E6B2C093 /* UIKit.framework */; };
+		E62367200FCBECAD2EA764F1C8CC738A /* DTDebugTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA13E1CD4EC19B02732F75D28E04E97 /* DTDebugTextController.m */; };
+		EBFCA527523808D90BEBE2271DE5A67D /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 12700866F5BB6504C2812683C57F797D /* UIImage+Utils.m */; };
+		EF0C38A14EE8B9ACB46ABCC2E38A8D96 /* UIView+animation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50670DA0F04F5787C63EC775B47EAE /* UIView+animation.m */; };
+		EFFFE4E7D1A977395F2DB1645E68E0BB /* DTTodayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 328C150A68D51FF21DD15C8BF860319F /* DTTodayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10A88DD1CFC77F262A349AEA623C066 /* DTDebugUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A652015881E3FB5F5B11DA3251023431 /* DTDebugUtil.m */; };
+		F4F902C2CF5E4A8D7A658AE99451016C /* DTDebugFileController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D0367C614F12F1E6D96DAB8C1C4A1F /* DTDebugFileController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F598CE8CBD1B838CD6FBF550338CB601 /* UIColor+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA6E8F2878E679330789E0E08E7BCC9 /* UIColor+Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6FB2B903A7C7AF4C8568444C5E11211 /* WCModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E62AE053243F76DDE320331FD1B5869 /* WCModel.framework */; };
+		F884F118CBA74E58B654E00F7642B038 /* UIImage+QRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D74C2E219FD38F2C90E2EA3F9332CE2 /* UIImage+QRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD62398F8E481948C52D0B0DB6C6935 /* DTDebugLogInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B555692FDF84C399E9E12FA08700261 /* DTDebugLogInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBEA9E5569AB248604CD8DBB4D7A6A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35581F61360EC00C2B4346F2990BC7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1278A8B2E15B22AC8BBA7B4451402F8;
+			remoteInfo = WCModule;
+		};
+		4B0AAAA8EC1A2AC806C5583606CFF093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD76F156C3E6CD5E31986CE16D7EBDD;
+			remoteInfo = WCDebug;
+		};
+		536B04FFE20CC9F9D2A573C16EA67716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F90F41A533181E074FEC69C614C8DC;
+			remoteInfo = WCPlugin;
+		};
+		595ADE90E32DF2A33C574A5DD34D4ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E029C17DCD42C24819019EFDEDE585EF;
+			remoteInfo = WCCategory;
+		};
+		5CADD9EF69319FC97458233459631C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F90F41A533181E074FEC69C614C8DC;
+			remoteInfo = WCPlugin;
+		};
+		637BFCE1046523888CB4726EDAEA85BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CBD0C0575FEB9B3905D59A8E15941B;
+			remoteInfo = WCModel;
+		};
+		8922BA728D0A04A1731F03DB007D62F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CBD0C0575FEB9B3905D59A8E15941B;
+			remoteInfo = WCModel;
+		};
+		89CA01A8676E812185B7050373B2D132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1278A8B2E15B22AC8BBA7B4451402F8;
+			remoteInfo = WCModule;
+		};
+		8A036CF94D048872C63B16FB9692AD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F668DA1672E718FA1A25D5EADE41323;
+			remoteInfo = "Pods-WCDebug_Example";
+		};
+		AA96652EEA0438CE3DABDF1227815B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E029C17DCD42C24819019EFDEDE585EF;
+			remoteInfo = WCCategory;
+		};
+		C01EF7A47A021A7A84625F88A1743722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E029C17DCD42C24819019EFDEDE585EF;
+			remoteInfo = WCCategory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F344B6CAEE74F288357620EB80CC67 /* DTDebugPlistController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugPlistController.h; sourceTree = "<group>"; };
+		022F53009B86DFE686697BEB80623388 /* WCCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCCategory.debug.xcconfig; sourceTree = "<group>"; };
+		02E0F4DFBC836D8FA8582EC80A089D74 /* DTDebugFileController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugFileController.m; sourceTree = "<group>"; };
+		02EED0209152934F1003D3CE95AD5B0D /* Pods-WCDebug_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCDebug_Tests-Info.plist"; sourceTree = "<group>"; };
+		037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		041CF2A8359A8A688570F40C790F0970 /* UIViewController+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Utils.h"; path = "WCCategory/Classes/UIKit/UIViewController+Utils.h"; sourceTree = "<group>"; };
+		0567076E2C8940F16BD398C0C6CB61A3 /* WCPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCPlugin.release.xcconfig; sourceTree = "<group>"; };
+		05D0A2FC5151324EFFE5BBF4B380AE11 /* WCQuickUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WCQuickUI.m; path = WCCategory/Classes/UIKit/WCQuickUI.m; sourceTree = "<group>"; };
+		0602FB60CB86BA8805DC4D67E6B2C093 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0780B8168B371E4A8EE0EA02CA05862B /* NSObject+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Utils.m"; path = "WCCategory/Classes/Foundation/NSObject+Utils.m"; sourceTree = "<group>"; };
+		092974EA61F9BC724607FA96B2B4F121 /* UIButton+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Utils.h"; path = "WCCategory/Classes/UIKit/UIButton+Utils.h"; sourceTree = "<group>"; };
+		0AD683BE5D18F13FE902C1CB49CABA29 /* WCModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B555692FDF84C399E9E12FA08700261 /* DTDebugLogInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugLogInfoView.h; sourceTree = "<group>"; };
+		0B8BB48D939014E99D133D0E87B19273 /* DTDebugTextController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugTextController.h; sourceTree = "<group>"; };
+		0D818D7BB1DBF423766AC9A6F36B1BA9 /* WCPlugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCPlugin-dummy.m"; sourceTree = "<group>"; };
+		0F59C334AF95087FE9DD1C2C2FBA0939 /* NSString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "WCCategory/Classes/Foundation/NSString+Utils.h"; sourceTree = "<group>"; };
+		12700866F5BB6504C2812683C57F797D /* UIImage+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Utils.m"; path = "WCCategory/Classes/UIKit/UIImage+Utils.m"; sourceTree = "<group>"; };
+		1453B6AEE80585A8D87484C7C7D3AA8B /* WCPlugin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCPlugin.modulemap; sourceTree = "<group>"; };
+		14AB01A41F1B9033200634840EA45B83 /* WCCategory+NS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCCategory+NS.h"; path = "WCCategory/Classes/Foundation/WCCategory+NS.h"; sourceTree = "<group>"; };
+		14B4C86B42062C9B3F8ACE8FF370C0FE /* WCCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCCategory.framework; path = WCCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D0367C614F12F1E6D96DAB8C1C4A1F /* DTDebugFileController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugFileController.h; sourceTree = "<group>"; };
+		161B70C7BF0C5E516E0F7E5734A5B4B3 /* JPFPSStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPFPSStatus.h; sourceTree = "<group>"; };
+		197AAB5F0C6DDC6DF3A242C9621415D2 /* WCDebug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDebug-umbrella.h"; sourceTree = "<group>"; };
+		1D01C938A7AB3E0B4F5D7372FD7E857D /* DTDebugHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugHeader.h; sourceTree = "<group>"; };
+		1DA26D08AD5F5B13A00A1CCA41DF067B /* UIView+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "WCCategory/Classes/UIKit/UIView+Utils.h"; sourceTree = "<group>"; };
+		1E24C3ECC250D2E4C3B0C85A531BF100 /* DTDebugViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugViewController.m; sourceTree = "<group>"; };
+		1E7A7E4ABB7AC2D37AB98C6511FA6812 /* WCDebug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCDebug.modulemap; sourceTree = "<group>"; };
+		229C2E6EF21728A4845F00E54E9D158D /* UIDevice+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Utils.m"; path = "WCCategory/Classes/UIKit/UIDevice+Utils.m"; sourceTree = "<group>"; };
+		25FAE2240AB09C9549DC6476A54FB0A3 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = WCPlugin/Classes/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		265C72E711B6884467B98825A3C7F8F8 /* WCDebug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCDebug-dummy.m"; sourceTree = "<group>"; };
+		287E039C825FFA4E213C91C78A2ABFE4 /* WCModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCModule.modulemap; sourceTree = "<group>"; };
+		298B0207F0E915E0FC5CA7F43CABA51E /* JPFPSStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JPFPSStatus.m; sourceTree = "<group>"; };
+		2AF1A98E623216E4A83FAF69B4C5FAFB /* Pods-WCDebug_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCDebug_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2B747F2B2A31368B5EBBEB71EA046007 /* UIView+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "WCCategory/Classes/UIKit/UIView+Utils.m"; sourceTree = "<group>"; };
+		2D0A6D664FB61F5020D7102153AAC971 /* UILabel+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Utils.m"; path = "WCCategory/Classes/UIKit/UILabel+Utils.m"; sourceTree = "<group>"; };
+		3123C871999288820580C7B98914EC3A /* WCModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCModule-prefix.pch"; sourceTree = "<group>"; };
+		328C150A68D51FF21DD15C8BF860319F /* DTTodayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTodayManager.h; path = WCModel/Classes/Plist/DTTodayManager.h; sourceTree = "<group>"; };
+		34196F29860AAA4B905DCA0806080F48 /* NSObject+DTFix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DTFix.m"; path = "WCCategory/Classes/Foundation/NSObject+DTFix.m"; sourceTree = "<group>"; };
+		3471FC7EC6150F0D9ACAFBAD28221CDA /* Pods-WCDebug_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCDebug_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		37A2C43EF4CF9642DBEEFF536FD181F9 /* UIImageView+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Utils.m"; path = "WCCategory/Classes/UIKit/UIImageView+Utils.m"; sourceTree = "<group>"; };
+		3886B14C847E60BC2A3E6D99DE5F2FDF /* WCModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCModule-umbrella.h"; sourceTree = "<group>"; };
+		3959B9746556CB3DD099FFCE74A71266 /* WCModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCModule.debug.xcconfig; sourceTree = "<group>"; };
+		3A2AD62F69AE5107E06F5D04FFED0154 /* RegexKitLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = WCModule/Classes/RegexKitLite/RegexKitLite.h; sourceTree = "<group>"; };
+		3BDD766357335425C36ABD426B37D537 /* WCDebug-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDebug-prefix.pch"; sourceTree = "<group>"; };
+		3D103109FD7E1573AAA82FC6161386A7 /* Pods-WCDebug_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WCDebug_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E8C8786C38C9DEF46EA4EA3A617CC7F /* WCPlugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCPlugin-prefix.pch"; sourceTree = "<group>"; };
+		3FF56A27259E9FFE45A0480994BF9852 /* DTAppPreferenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTAppPreferenceManager.h; path = WCModel/Classes/Plist/DTAppPreferenceManager.h; sourceTree = "<group>"; };
+		444086AB55860025DED1E681FC87E6D9 /* UIButton+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Utils.m"; path = "WCCategory/Classes/UIKit/UIButton+Utils.m"; sourceTree = "<group>"; };
+		451C0BB6FD23C43988A66FE72E9551CC /* WCPluginResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WCPluginResource.bundle; path = WCPlugin/Classes/WCPluginResource.bundle; sourceTree = "<group>"; };
+		45AF6E76CCCC223A8ADF829FEB9AE98D /* DTDebugLogInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugLogInfoView.m; sourceTree = "<group>"; };
+		47452D55DCC0BD71CC0AC1F43201F43A /* NSDictionary+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Utils.h"; path = "WCCategory/Classes/Foundation/NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		4965BBC51DA9C7C7076D4A00177B49FF /* RegexKitLite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = WCModule/Classes/RegexKitLite/RegexKitLite.m; sourceTree = "<group>"; };
+		4BE9FCCF2D633D9CB9898CD81E52CC5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4C5770B78807C1D57872FD8F7DA3EA8E /* WCModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCModel-dummy.m"; sourceTree = "<group>"; };
+		4CFF0AE4B6CEBDDF8A0AAA666181C976 /* Pods-WCDebug_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCDebug_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4D31D069AA1B61DD2055AEB74590E020 /* NSJSONHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSJSONHelper.m; path = WCCategory/Classes/Foundation/NSJSONHelper.m; sourceTree = "<group>"; };
+		4ED069556B9439D72061B0E3BEC15140 /* WCDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCDebug.framework; path = WCDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AE86B362982D88DFB56A8A3E285DB3 /* WCCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCCategory-Info.plist"; sourceTree = "<group>"; };
+		51EDBB6D3ED908DC922FEA1DE46C4D62 /* Pods-WCDebug_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCDebug_Example-dummy.m"; sourceTree = "<group>"; };
+		55EC4CA9C4FC6CE9120FE78DD7A2A9DC /* NSJSONHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSJSONHelper.h; path = WCCategory/Classes/Foundation/NSJSONHelper.h; sourceTree = "<group>"; };
+		5643C75288FDC1A724E0DBFA64BC4C77 /* WCCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCCategory-dummy.m"; sourceTree = "<group>"; };
+		57FC4D71AA64E7B270CA701D94A44E97 /* Pods-WCDebug_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCDebug_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		597C5A2635C159283A09CF8BA96957AB /* WCCategory+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCCategory+UI.h"; path = "WCCategory/Classes/UIKit/WCCategory+UI.h"; sourceTree = "<group>"; };
+		5AFEDDC7367FAA1ABE608E537F1AF40F /* DTAppPreferenceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTAppPreferenceManager.m; path = WCModel/Classes/Plist/DTAppPreferenceManager.m; sourceTree = "<group>"; };
+		5CF5AF87BCFCD24310AE765E22671BED /* WCCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D74C2E219FD38F2C90E2EA3F9332CE2 /* UIImage+QRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+QRCode.h"; path = "WCCategory/Classes/UIKit/UIImage+QRCode.h"; sourceTree = "<group>"; };
+		5D7E6A59DBC150132F5F35B4E8520880 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		62773B8786B5302BEE0BE711278F5F8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		63BA73CD2CDEF33F1D1B6A1AF6C06FDB /* DTDebugListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugListCell.m; sourceTree = "<group>"; };
+		63FFE67F781C57FB0A2F48D2836C13ED /* Pods-WCDebug_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCDebug_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		671276B578447CA880C4A75D5DE89463 /* UIImage+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Utils.h"; path = "WCCategory/Classes/UIKit/UIImage+Utils.h"; sourceTree = "<group>"; };
+		684B83FF243D7C6DDDA8907A48FF1D82 /* UINavigationController+PopAfterPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PopAfterPush.h"; path = "WCCategory/Classes/UIKit/UINavigationController+PopAfterPush.h"; sourceTree = "<group>"; };
+		685C79945D039AF69BE31E2DD60C3758 /* NSObject+DTFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DTFix.h"; path = "WCCategory/Classes/Foundation/NSObject+DTFix.h"; sourceTree = "<group>"; };
+		6A382CBE28DDD07313B7F93F54374201 /* NSObject+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Utils.h"; path = "WCCategory/Classes/Foundation/NSObject+Utils.h"; sourceTree = "<group>"; };
+		6AEAF5301008C206EC5267C4764027DA /* DTDebugViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugViewController.h; sourceTree = "<group>"; };
+		6B519419C1224C6566A44CD14663E226 /* WCDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCDefine.h; path = WCCategory/Classes/Define/WCDefine.h; sourceTree = "<group>"; };
+		6C3B7366BF9AFB46AE6193D740277653 /* NSArray+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Utils.m"; path = "WCCategory/Classes/Foundation/NSArray+Utils.m"; sourceTree = "<group>"; };
+		6E2A86673CF75A1E3CF3510380F80257 /* NSDate+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utils.h"; path = "WCCategory/Classes/Foundation/NSDate+Utils.h"; sourceTree = "<group>"; };
+		6F4E690D2A748A6A26388BD8877DB20B /* WCDebug-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCDebug-Info.plist"; sourceTree = "<group>"; };
+		71C72CA3BD8E7A1B9C6A336811ABCF40 /* DTTodayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTodayManager.m; path = WCModel/Classes/Plist/DTTodayManager.m; sourceTree = "<group>"; };
+		7586590D9FED89ABE0CB772384D6CB36 /* WCPlugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCPlugin-Info.plist"; sourceTree = "<group>"; };
+		7DD90E0364D9A245DC24AFE65654BEB3 /* DTDebugPhotosController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugPhotosController.m; sourceTree = "<group>"; };
+		7F81AD7229605D3DAEE11164B3DF46FF /* WCDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCDebug.debug.xcconfig; sourceTree = "<group>"; };
+		80AC2A180CF994BC5F3546BCB9373A65 /* DTDebugManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugManager.m; sourceTree = "<group>"; };
+		813167BE4F0B9EE33DCCB91D6C6250B9 /* DTDebugManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugManager.h; sourceTree = "<group>"; };
+		820E3C2066464D68B6AC08439FF195D9 /* WCCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCCategory.h; path = WCCategory/Classes/WCCategory.h; sourceTree = "<group>"; };
+		831C2CE4EC565AFB733F271BABAC992F /* DTFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTFileManager.m; path = WCModel/Classes/File/DTFileManager.m; sourceTree = "<group>"; };
+		8C12571843D8596D5FEB88A8EF5BBE5D /* WCPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBE826C4A25E6E9ED27A09469FA1921 /* WCCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCCategory-umbrella.h"; sourceTree = "<group>"; };
+		8CE44AF782DBAF4992FDEB593711FA06 /* WCPlugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCPlugin-umbrella.h"; sourceTree = "<group>"; };
+		8E62AE053243F76DDE320331FD1B5869 /* WCModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92208877DB8CBBE93A2D28536EC58E2C /* WCPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCPlugin.debug.xcconfig; sourceTree = "<group>"; };
+		932F4C02B04EA455B812B7BB1C6B85D5 /* NSString+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "WCCategory/Classes/Foundation/NSString+Utils.m"; sourceTree = "<group>"; };
+		93BC403F4DE2C495346EB696B04725D5 /* WCModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCModel.framework; path = WCModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953A23D0E5AACD641B98D3B235FE1652 /* WCModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCModule.framework; path = WCModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ADA81BFD076F5BC5C88EE76AA95E47 /* DTDebugListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugListCell.h; sourceTree = "<group>"; };
+		9717638858E11C9F93BDABDBD6E6D068 /* WCDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCDebug.h; path = WCDebug/Classes/WCDebug.h; sourceTree = "<group>"; };
+		97C86092971B7E3D74F95ADFD4E8484B /* DTDebugPhotosController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugPhotosController.h; sourceTree = "<group>"; };
+		9A85B82F61BF332C7B543B18E56467C4 /* Pods-WCDebug_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCDebug_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C072D3F5BFFB8667CAE99E0AEB97524 /* NSAttributedString+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+Utils.m"; path = "WCCategory/Classes/Foundation/NSAttributedString+Utils.m"; sourceTree = "<group>"; };
+		9C42E64ED9DC5D12373FA8058755C062 /* DTDebugUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDebugUtil.h; sourceTree = "<group>"; };
+		9C6137ED8F5308A4BC9EEFDCC8F320D7 /* DTDebugPlistController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugPlistController.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E612D7BDB1A4A1D3713C611F8BE2E56 /* Pods-WCDebug_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCDebug_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E800815F638D78BC295DFF76C740057 /* Pods-WCDebug_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCDebug_Example-umbrella.h"; sourceTree = "<group>"; };
+		9E8C1C44A6309C83763E258B2EE4FCD2 /* NSURL+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Utils.h"; path = "WCCategory/Classes/Foundation/NSURL+Utils.h"; sourceTree = "<group>"; };
+		9E94D6D15E3AB03F5ACD78E6202B1749 /* WCDebug.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WCDebug.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA13E1CD4EC19B02732F75D28E04E97 /* DTDebugTextController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugTextController.m; sourceTree = "<group>"; };
+		A1152E4C36F672E6EAD3BD08839FF29A /* Pods-WCDebug_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WCDebug_Tests.modulemap"; sourceTree = "<group>"; };
+		A15722FDF8785FD7718F71F9A27812DD /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = WCPlugin/Classes/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		A26538F8FDE82BD4AA63C6E23773DDB8 /* NSData+md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+md5.h"; path = "WCCategory/Classes/Foundation/NSData+md5.h"; sourceTree = "<group>"; };
+		A279DD75913152C831FEA1E313EBCA74 /* WCDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCDebug.release.xcconfig; sourceTree = "<group>"; };
+		A2F2D97E1648FF3889315FA1E6343445 /* NSDictionary+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Utils.m"; path = "WCCategory/Classes/Foundation/NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		A652015881E3FB5F5B11DA3251023431 /* DTDebugUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDebugUtil.m; sourceTree = "<group>"; };
+		AD536E93A8B7025B1E0C4BAD3C9874B9 /* NSData+md5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+md5.m"; path = "WCCategory/Classes/Foundation/NSData+md5.m"; sourceTree = "<group>"; };
+		AE8F62D11CF47C396CA98235816BB0FA /* WCModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCModule.release.xcconfig; sourceTree = "<group>"; };
+		B37587892123C143691BE94F3989D85E /* WCCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCCategory.modulemap; sourceTree = "<group>"; };
+		B5805872C927AEBF7308FEE0825195C0 /* BPAppPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BPAppPreference.h; path = WCModel/Classes/Plist/BPAppPreference.h; sourceTree = "<group>"; };
+		B735A3048E667AA2C94D1E51C4D70E03 /* WCCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCCategory.release.xcconfig; sourceTree = "<group>"; };
+		B7C99A1C43DF11658771A0F877CD16FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7FBC1D73C0E4B1B58BA1FC45E353A9D /* WCModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCModel.modulemap; sourceTree = "<group>"; };
+		BA9C9472FD9B0D15E3CC8582ADFB4E54 /* Pods-WCDebug_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCDebug_Tests-dummy.m"; sourceTree = "<group>"; };
+		BB50670DA0F04F5787C63EC775B47EAE /* UIView+animation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+animation.m"; path = "WCCategory/Classes/UIKit/UIView+animation.m"; sourceTree = "<group>"; };
+		BCCA95DCEF53BFCEE401A88C1D70FE56 /* WCPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCPlugin.framework; path = WCPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7227D818421E0C258A224E741FD150 /* UIViewController+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Utils.m"; path = "WCCategory/Classes/UIKit/UIViewController+Utils.m"; sourceTree = "<group>"; };
+		BE62512C9776A9C006192D7558DC18B7 /* UIImage+QRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QRCode.m"; path = "WCCategory/Classes/UIKit/UIImage+QRCode.m"; sourceTree = "<group>"; };
+		BF11C006801562498A93B84D74D79FEE /* MBProgressHUDAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUDAdditions.m; path = WCPlugin/Classes/MBProgressHUD/MBProgressHUDAdditions.m; sourceTree = "<group>"; };
+		C5E1EC4B4BA61A5EFD1475EA17B8BC1B /* Pods-WCDebug_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCDebug_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7B551B61E4AD9A5977BFA43E18A35CD /* WCModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCModel.debug.xcconfig; sourceTree = "<group>"; };
+		C8B57589042F188F5CD6FF3311D9499A /* DTFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTFileManager.h; path = WCModel/Classes/File/DTFileManager.h; sourceTree = "<group>"; };
+		CA594B40DB471DDB3D3D4D9223B01FEC /* Pods-WCDebug_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WCDebug_Example.modulemap"; sourceTree = "<group>"; };
+		CBB26F2972A19FE0E5173925D84A380B /* BPAppPreference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BPAppPreference.m; path = WCModel/Classes/Plist/BPAppPreference.m; sourceTree = "<group>"; };
+		CC283FAEEA0B43933D9E85867298960E /* WCModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCModel-prefix.pch"; sourceTree = "<group>"; };
+		CD883495FAD8B67EB7FB07C537781689 /* NSDate+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utils.m"; path = "WCCategory/Classes/Foundation/NSDate+Utils.m"; sourceTree = "<group>"; };
+		CDC43B684B0D0C78212DECBCD3A9E490 /* UIView+animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+animation.h"; path = "WCCategory/Classes/UIKit/UIView+animation.h"; sourceTree = "<group>"; };
+		CE8ECB90D501DAE829A55513C60B3C43 /* WCModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCModel.release.xcconfig; sourceTree = "<group>"; };
+		CF929A86A6C852EB49A15E14DFC8BAB3 /* NSAttributedString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+Utils.h"; path = "WCCategory/Classes/Foundation/NSAttributedString+Utils.h"; sourceTree = "<group>"; };
+		D12433783C6D2A7242B9526B6411F374 /* BPFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BPFileUtil.h; path = WCModel/Classes/File/BPFileUtil.h; sourceTree = "<group>"; };
+		D1B8BB865A0DFDE60858DB12B33AD49A /* UITableView+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Utils.m"; path = "WCCategory/Classes/UIKit/UITableView+Utils.m"; sourceTree = "<group>"; };
+		D878E12F9FCC9FB1F2C457577B33AD70 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D8F6EB56F605C3F49566C401EC226695 /* UIDevice+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Utils.h"; path = "WCCategory/Classes/UIKit/UIDevice+Utils.h"; sourceTree = "<group>"; };
+		D92A1B9808A5D49868E9CD5BCA42FAD9 /* Pods_WCDebug_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WCDebug_Example.framework; path = "Pods-WCDebug_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA39EEA7151A543CE78361E87E9E8A55 /* UIImageView+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Utils.h"; path = "WCCategory/Classes/UIKit/UIImageView+Utils.h"; sourceTree = "<group>"; };
+		DB6A6089D8CCF89CDE4BD6615BBBC2C2 /* UITableView+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Utils.h"; path = "WCCategory/Classes/UIKit/UITableView+Utils.h"; sourceTree = "<group>"; };
+		DE111570BAA6D60B6EC6684E669B1275 /* UINavigationController+PopAfterPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PopAfterPush.m"; path = "WCCategory/Classes/UIKit/UINavigationController+PopAfterPush.m"; sourceTree = "<group>"; };
+		E01B704923E39785E91A87155DF859A9 /* NSArray+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Utils.h"; path = "WCCategory/Classes/Foundation/NSArray+Utils.h"; sourceTree = "<group>"; };
+		E26FAD2C52E6A8420363ED19D53C5CF5 /* Pods-WCDebug_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCDebug_Example-Info.plist"; sourceTree = "<group>"; };
+		E2EB21F6F90AB4ED49A1AF70F0F47527 /* WCModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCModel-Info.plist"; sourceTree = "<group>"; };
+		E6B894E831822C1A0E1B843020055C83 /* Pods_WCDebug_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WCDebug_Tests.framework; path = "Pods-WCDebug_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB06BD71BD865FAA8BEF9E1B84ACA8CC /* NSURL+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Utils.m"; path = "WCCategory/Classes/Foundation/NSURL+Utils.m"; sourceTree = "<group>"; };
+		EDDC2D030737FA3256EE089258FDBA2C /* NSString+md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+md5.h"; path = "WCCategory/Classes/Foundation/NSString+md5.h"; sourceTree = "<group>"; };
+		F0EB5EC5D31892E4E23DC1B80A6B28BC /* MBProgressHUDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUDAdditions.h; path = WCPlugin/Classes/MBProgressHUD/MBProgressHUDAdditions.h; sourceTree = "<group>"; };
+		F18E9058BC458708A89BBDC0C749CD00 /* NSString+md5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+md5.m"; path = "WCCategory/Classes/Foundation/NSString+md5.m"; sourceTree = "<group>"; };
+		F490B74FA55F2199439A2F8B45A02D7C /* WCModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCModule-dummy.m"; sourceTree = "<group>"; };
+		F68F901B41845EAE701010414BA61053 /* UILabel+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Utils.h"; path = "WCCategory/Classes/UIKit/UILabel+Utils.h"; sourceTree = "<group>"; };
+		F6D6E6E64441E23AC2B3A40276E6093B /* WCModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCModule-Info.plist"; sourceTree = "<group>"; };
+		F740BFF0F1C9E8765A82D2CF293DC207 /* WCModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCModel-umbrella.h"; sourceTree = "<group>"; };
+		F99CF290AB03AE700DF66E8A15782D6B /* WCQuickUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCQuickUI.h; path = WCCategory/Classes/UIKit/WCQuickUI.h; sourceTree = "<group>"; };
+		F9BC29C7F99566BAA68931CF964347A9 /* UIColor+Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Util.m"; path = "WCCategory/Classes/UIKit/UIColor+Util.m"; sourceTree = "<group>"; };
+		FAA6E8F2878E679330789E0E08E7BCC9 /* UIColor+Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Util.h"; path = "WCCategory/Classes/UIKit/UIColor+Util.h"; sourceTree = "<group>"; };
+		FB5E602D707291B4BDD72229D2D694E2 /* BPFileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BPFileUtil.m; path = WCModel/Classes/File/BPFileUtil.m; sourceTree = "<group>"; };
+		FBE736B754BFF396064416727FE43097 /* Pods-WCDebug_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCDebug_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFADEA248A51E337FDC1FA7F4F6855C3 /* WCCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCCategory-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D04127ACD2812B990E1A84A44C56981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C695956D5C41FB2D34ECB6A211DCBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203A2A1AF7CBF1B005066124045A7650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63499C3EEFC52C677F35C7E84CBB8E9A /* CoreGraphics.framework in Frameworks */,
+				112F8B0378903579B1307A0917415C54 /* Foundation.framework in Frameworks */,
+				E349896344D15144A2A308306E53F805 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D756731D971A82D7BD4161EAD32B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEA9E5569AB248604CD8DBB4D7A6A24 /* Foundation.framework in Frameworks */,
+				150966D463CCB26C28D670BD9A34D925 /* WCCategory.framework in Frameworks */,
+				5C3DABF80113852E2A6FE882C24404D5 /* WCModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF40A89DF54CB3CDE62C740B8CB3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A85DDCED599C3B93EB7D5052AE17A2 /* CoreText.framework in Frameworks */,
+				D29F334C10B15BE56B5630E5A980C699 /* Foundation.framework in Frameworks */,
+				E14573B711897DEB0A342F27046E8BC1 /* QuartzCore.framework in Frameworks */,
+				0E2D97AE38DDFD69D1C44FC9974C4528 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FAB77008199F9A9CBAC7B5A093C101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880E482C2848AA0A0F1B267965EEA453 /* Foundation.framework in Frameworks */,
+				0789C49687CC9A14A7574D710E20B476 /* WCCategory.framework in Frameworks */,
+				F6FB2B903A7C7AF4C8568444C5E11211 /* WCModel.framework in Frameworks */,
+				603759446436CAE8C91875FA00CEC345 /* WCPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66716768BD74200FE7645330A7D5269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA2C0494F2D2A59C24AC2AF3F5CC7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1745D7460C77EC89A8BFD212E4D89C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B927FA77995CA379D778231373E5B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0562FC1B1202D905C05E5A1418F1ABC5 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				6B519419C1224C6566A44CD14663E226 /* WCDefine.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		106382973F86A3A354EE0477E1D84C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98F9E63BBD170B35D098C787D838B0FF /* WCCategory */,
+				1D160D4CC3B32681E523E048678767D6 /* WCModel */,
+				8152D70DCBCD4C2BF447E5D8FABAFE1D /* WCModule */,
+				658BF7C9EAB13160CAAC789B419066DC /* WCPlugin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		144C43EFA9E9D4B777462A917CD9A96C /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				3A2AD62F69AE5107E06F5D04FFED0154 /* RegexKitLite.h */,
+				4965BBC51DA9C7C7076D4A00177B49FF /* RegexKitLite.m */,
+			);
+			name = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		1D160D4CC3B32681E523E048678767D6 /* WCModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A6737439567DE7B215D78DE892154B0 /* File */,
+				EB61FF68585FA8F792392B42C3A51EC3 /* Plist */,
+				C31DBECFB23F4C1E1F79FCD9C313E38C /* Support Files */,
+			);
+			name = WCModel;
+			path = WCModel;
+			sourceTree = "<group>";
+		};
+		2228E478889F7580ABFD85C60AD14A68 /* Pods-WCDebug_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CA594B40DB471DDB3D3D4D9223B01FEC /* Pods-WCDebug_Example.modulemap */,
+				9E612D7BDB1A4A1D3713C611F8BE2E56 /* Pods-WCDebug_Example-acknowledgements.markdown */,
+				C5E1EC4B4BA61A5EFD1475EA17B8BC1B /* Pods-WCDebug_Example-acknowledgements.plist */,
+				51EDBB6D3ED908DC922FEA1DE46C4D62 /* Pods-WCDebug_Example-dummy.m */,
+				3D103109FD7E1573AAA82FC6161386A7 /* Pods-WCDebug_Example-frameworks.sh */,
+				E26FAD2C52E6A8420363ED19D53C5CF5 /* Pods-WCDebug_Example-Info.plist */,
+				9E800815F638D78BC295DFF76C740057 /* Pods-WCDebug_Example-umbrella.h */,
+				63FFE67F781C57FB0A2F48D2836C13ED /* Pods-WCDebug_Example.debug.xcconfig */,
+				4CFF0AE4B6CEBDDF8A0AAA666181C976 /* Pods-WCDebug_Example.release.xcconfig */,
+			);
+			name = "Pods-WCDebug_Example";
+			path = "Target Support Files/Pods-WCDebug_Example";
+			sourceTree = "<group>";
+		};
+		248D221CB8B6B1E33CB103AEEAC37002 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A15722FDF8785FD7718F71F9A27812DD /* MBProgressHUD.h */,
+				25FAE2240AB09C9549DC6476A54FB0A3 /* MBProgressHUD.m */,
+				F0EB5EC5D31892E4E23DC1B80A6B28BC /* MBProgressHUDAdditions.h */,
+				BF11C006801562498A93B84D74D79FEE /* MBProgressHUDAdditions.m */,
+				EA0F845191B112408515493774EFFC09 /* Resources */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		279D5BF96E0A0031B2377555ABACCB7D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9FCCF2D633D9CB9898CD81E52CC5E /* CoreGraphics.framework */,
+				D878E12F9FCC9FB1F2C457577B33AD70 /* CoreText.framework */,
+				037A8FBD3790143EB484BA72D7151346 /* Foundation.framework */,
+				5D7E6A59DBC150132F5F35B4E8520880 /* QuartzCore.framework */,
+				0602FB60CB86BA8805DC4D67E6B2C093 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		30D524C60007B751665334CB69D05A84 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				E01B704923E39785E91A87155DF859A9 /* NSArray+Utils.h */,
+				6C3B7366BF9AFB46AE6193D740277653 /* NSArray+Utils.m */,
+				CF929A86A6C852EB49A15E14DFC8BAB3 /* NSAttributedString+Utils.h */,
+				9C072D3F5BFFB8667CAE99E0AEB97524 /* NSAttributedString+Utils.m */,
+				A26538F8FDE82BD4AA63C6E23773DDB8 /* NSData+md5.h */,
+				AD536E93A8B7025B1E0C4BAD3C9874B9 /* NSData+md5.m */,
+				6E2A86673CF75A1E3CF3510380F80257 /* NSDate+Utils.h */,
+				CD883495FAD8B67EB7FB07C537781689 /* NSDate+Utils.m */,
+				47452D55DCC0BD71CC0AC1F43201F43A /* NSDictionary+Utils.h */,
+				A2F2D97E1648FF3889315FA1E6343445 /* NSDictionary+Utils.m */,
+				55EC4CA9C4FC6CE9120FE78DD7A2A9DC /* NSJSONHelper.h */,
+				4D31D069AA1B61DD2055AEB74590E020 /* NSJSONHelper.m */,
+				685C79945D039AF69BE31E2DD60C3758 /* NSObject+DTFix.h */,
+				34196F29860AAA4B905DCA0806080F48 /* NSObject+DTFix.m */,
+				6A382CBE28DDD07313B7F93F54374201 /* NSObject+Utils.h */,
+				0780B8168B371E4A8EE0EA02CA05862B /* NSObject+Utils.m */,
+				EDDC2D030737FA3256EE089258FDBA2C /* NSString+md5.h */,
+				F18E9058BC458708A89BBDC0C749CD00 /* NSString+md5.m */,
+				0F59C334AF95087FE9DD1C2C2FBA0939 /* NSString+Utils.h */,
+				932F4C02B04EA455B812B7BB1C6B85D5 /* NSString+Utils.m */,
+				9E8C1C44A6309C83763E258B2EE4FCD2 /* NSURL+Utils.h */,
+				EB06BD71BD865FAA8BEF9E1B84ACA8CC /* NSURL+Utils.m */,
+				14AB01A41F1B9033200634840EA45B83 /* WCCategory+NS.h */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		43738B6DCFD3BE1FB2C14130D9828170 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				676EF64D18ECFAEBE183E9EAF9D73919 /* WCDebug */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		58119943BEB2ABF45C2A19B936000729 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				092974EA61F9BC724607FA96B2B4F121 /* UIButton+Utils.h */,
+				444086AB55860025DED1E681FC87E6D9 /* UIButton+Utils.m */,
+				FAA6E8F2878E679330789E0E08E7BCC9 /* UIColor+Util.h */,
+				F9BC29C7F99566BAA68931CF964347A9 /* UIColor+Util.m */,
+				D8F6EB56F605C3F49566C401EC226695 /* UIDevice+Utils.h */,
+				229C2E6EF21728A4845F00E54E9D158D /* UIDevice+Utils.m */,
+				5D74C2E219FD38F2C90E2EA3F9332CE2 /* UIImage+QRCode.h */,
+				BE62512C9776A9C006192D7558DC18B7 /* UIImage+QRCode.m */,
+				671276B578447CA880C4A75D5DE89463 /* UIImage+Utils.h */,
+				12700866F5BB6504C2812683C57F797D /* UIImage+Utils.m */,
+				DA39EEA7151A543CE78361E87E9E8A55 /* UIImageView+Utils.h */,
+				37A2C43EF4CF9642DBEEFF536FD181F9 /* UIImageView+Utils.m */,
+				F68F901B41845EAE701010414BA61053 /* UILabel+Utils.h */,
+				2D0A6D664FB61F5020D7102153AAC971 /* UILabel+Utils.m */,
+				684B83FF243D7C6DDDA8907A48FF1D82 /* UINavigationController+PopAfterPush.h */,
+				DE111570BAA6D60B6EC6684E669B1275 /* UINavigationController+PopAfterPush.m */,
+				DB6A6089D8CCF89CDE4BD6615BBBC2C2 /* UITableView+Utils.h */,
+				D1B8BB865A0DFDE60858DB12B33AD49A /* UITableView+Utils.m */,
+				CDC43B684B0D0C78212DECBCD3A9E490 /* UIView+animation.h */,
+				BB50670DA0F04F5787C63EC775B47EAE /* UIView+animation.m */,
+				1DA26D08AD5F5B13A00A1CCA41DF067B /* UIView+Utils.h */,
+				2B747F2B2A31368B5EBBEB71EA046007 /* UIView+Utils.m */,
+				041CF2A8359A8A688570F40C790F0970 /* UIViewController+Utils.h */,
+				BD7227D818421E0C258A224E741FD150 /* UIViewController+Utils.m */,
+				597C5A2635C159283A09CF8BA96957AB /* WCCategory+UI.h */,
+				F99CF290AB03AE700DF66E8A15782D6B /* WCQuickUI.h */,
+				05D0A2FC5151324EFFE5BBF4B380AE11 /* WCQuickUI.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		5F6895AFCD0E3ABC952288D698CC9CE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B37587892123C143691BE94F3989D85E /* WCCategory.modulemap */,
+				5643C75288FDC1A724E0DBFA64BC4C77 /* WCCategory-dummy.m */,
+				51AE86B362982D88DFB56A8A3E285DB3 /* WCCategory-Info.plist */,
+				FFADEA248A51E337FDC1FA7F4F6855C3 /* WCCategory-prefix.pch */,
+				8CBE826C4A25E6E9ED27A09469FA1921 /* WCCategory-umbrella.h */,
+				022F53009B86DFE686697BEB80623388 /* WCCategory.debug.xcconfig */,
+				B735A3048E667AA2C94D1E51C4D70E03 /* WCCategory.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WCCategory";
+			sourceTree = "<group>";
+		};
+		5FE58AD56D92A5C60482606379D200C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2228E478889F7580ABFD85C60AD14A68 /* Pods-WCDebug_Example */,
+				BEFDE28DDAD157077B3515CCB37CC0D1 /* Pods-WCDebug_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		658BF7C9EAB13160CAAC789B419066DC /* WCPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				248D221CB8B6B1E33CB103AEEAC37002 /* MBProgressHUD */,
+				B99A3B454C8483AB755DF0920D01B9B0 /* Support Files */,
+			);
+			name = WCPlugin;
+			path = WCPlugin;
+			sourceTree = "<group>";
+		};
+		676EF64D18ECFAEBE183E9EAF9D73919 /* WCDebug */ = {
+			isa = PBXGroup;
+			children = (
+				9717638858E11C9F93BDABDBD6E6D068 /* WCDebug.h */,
+				C95E1E9618B576C1A12B99303631E944 /* controller */,
+				823A9A159F315EF6399BED9D9E960DBE /* JPFPSStatus */,
+				CE1C42F8CB8C7A248C7C829060965716 /* Manager */,
+				D99B549F9B625F6B7911C70236ADAD62 /* Pod */,
+				B388F1EA2A236963B0F825719A1CE2C9 /* Support Files */,
+			);
+			name = WCDebug;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7676687BCF7B7667C0EF79F2154032DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF5AF87BCFCD24310AE765E22671BED /* WCCategory.framework */,
+				8E62AE053243F76DDE320331FD1B5869 /* WCModel.framework */,
+				0AD683BE5D18F13FE902C1CB49CABA29 /* WCModule.framework */,
+				8C12571843D8596D5FEB88A8EF5BBE5D /* WCPlugin.framework */,
+				279D5BF96E0A0031B2377555ABACCB7D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8152D70DCBCD4C2BF447E5D8FABAFE1D /* WCModule */ = {
+			isa = PBXGroup;
+			children = (
+				144C43EFA9E9D4B777462A917CD9A96C /* RegexKitLite */,
+				BBC3C96675CDE1FE1AF28A31399819F5 /* Support Files */,
+			);
+			name = WCModule;
+			path = WCModule;
+			sourceTree = "<group>";
+		};
+		823A9A159F315EF6399BED9D9E960DBE /* JPFPSStatus */ = {
+			isa = PBXGroup;
+			children = (
+				161B70C7BF0C5E516E0F7E5734A5B4B3 /* JPFPSStatus.h */,
+				298B0207F0E915E0FC5CA7F43CABA51E /* JPFPSStatus.m */,
+			);
+			name = JPFPSStatus;
+			path = WCDebug/Classes/JPFPSStatus;
+			sourceTree = "<group>";
+		};
+		98F9E63BBD170B35D098C787D838B0FF /* WCCategory */ = {
+			isa = PBXGroup;
+			children = (
+				820E3C2066464D68B6AC08439FF195D9 /* WCCategory.h */,
+				0562FC1B1202D905C05E5A1418F1ABC5 /* Define */,
+				30D524C60007B751665334CB69D05A84 /* Foundation */,
+				5F6895AFCD0E3ABC952288D698CC9CE3 /* Support Files */,
+				58119943BEB2ABF45C2A19B936000729 /* UIKit */,
+			);
+			name = WCCategory;
+			path = WCCategory;
+			sourceTree = "<group>";
+		};
+		9A6737439567DE7B215D78DE892154B0 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				D12433783C6D2A7242B9526B6411F374 /* BPFileUtil.h */,
+				FB5E602D707291B4BDD72229D2D694E2 /* BPFileUtil.m */,
+				C8B57589042F188F5CD6FF3311D9499A /* DTFileManager.h */,
+				831C2CE4EC565AFB733F271BABAC992F /* DTFileManager.m */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		B388F1EA2A236963B0F825719A1CE2C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A7E4ABB7AC2D37AB98C6511FA6812 /* WCDebug.modulemap */,
+				265C72E711B6884467B98825A3C7F8F8 /* WCDebug-dummy.m */,
+				6F4E690D2A748A6A26388BD8877DB20B /* WCDebug-Info.plist */,
+				3BDD766357335425C36ABD426B37D537 /* WCDebug-prefix.pch */,
+				197AAB5F0C6DDC6DF3A242C9621415D2 /* WCDebug-umbrella.h */,
+				7F81AD7229605D3DAEE11164B3DF46FF /* WCDebug.debug.xcconfig */,
+				A279DD75913152C831FEA1E313EBCA74 /* WCDebug.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WCDebug";
+			sourceTree = "<group>";
+		};
+		B99A3B454C8483AB755DF0920D01B9B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1453B6AEE80585A8D87484C7C7D3AA8B /* WCPlugin.modulemap */,
+				0D818D7BB1DBF423766AC9A6F36B1BA9 /* WCPlugin-dummy.m */,
+				7586590D9FED89ABE0CB772384D6CB36 /* WCPlugin-Info.plist */,
+				3E8C8786C38C9DEF46EA4EA3A617CC7F /* WCPlugin-prefix.pch */,
+				8CE44AF782DBAF4992FDEB593711FA06 /* WCPlugin-umbrella.h */,
+				92208877DB8CBBE93A2D28536EC58E2C /* WCPlugin.debug.xcconfig */,
+				0567076E2C8940F16BD398C0C6CB61A3 /* WCPlugin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WCPlugin";
+			sourceTree = "<group>";
+		};
+		BBC3C96675CDE1FE1AF28A31399819F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				287E039C825FFA4E213C91C78A2ABFE4 /* WCModule.modulemap */,
+				F490B74FA55F2199439A2F8B45A02D7C /* WCModule-dummy.m */,
+				F6D6E6E64441E23AC2B3A40276E6093B /* WCModule-Info.plist */,
+				3123C871999288820580C7B98914EC3A /* WCModule-prefix.pch */,
+				3886B14C847E60BC2A3E6D99DE5F2FDF /* WCModule-umbrella.h */,
+				3959B9746556CB3DD099FFCE74A71266 /* WCModule.debug.xcconfig */,
+				AE8F62D11CF47C396CA98235816BB0FA /* WCModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WCModule";
+			sourceTree = "<group>";
+		};
+		BEFDE28DDAD157077B3515CCB37CC0D1 /* Pods-WCDebug_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1152E4C36F672E6EAD3BD08839FF29A /* Pods-WCDebug_Tests.modulemap */,
+				FBE736B754BFF396064416727FE43097 /* Pods-WCDebug_Tests-acknowledgements.markdown */,
+				3471FC7EC6150F0D9ACAFBAD28221CDA /* Pods-WCDebug_Tests-acknowledgements.plist */,
+				BA9C9472FD9B0D15E3CC8582ADFB4E54 /* Pods-WCDebug_Tests-dummy.m */,
+				02EED0209152934F1003D3CE95AD5B0D /* Pods-WCDebug_Tests-Info.plist */,
+				2AF1A98E623216E4A83FAF69B4C5FAFB /* Pods-WCDebug_Tests-umbrella.h */,
+				9A85B82F61BF332C7B543B18E56467C4 /* Pods-WCDebug_Tests.debug.xcconfig */,
+				57FC4D71AA64E7B270CA701D94A44E97 /* Pods-WCDebug_Tests.release.xcconfig */,
+			);
+			name = "Pods-WCDebug_Tests";
+			path = "Target Support Files/Pods-WCDebug_Tests";
+			sourceTree = "<group>";
+		};
+		C16B40CA48EBF4791CE49F285B98242B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92A1B9808A5D49868E9CD5BCA42FAD9 /* Pods_WCDebug_Example.framework */,
+				E6B894E831822C1A0E1B843020055C83 /* Pods_WCDebug_Tests.framework */,
+				14B4C86B42062C9B3F8ACE8FF370C0FE /* WCCategory.framework */,
+				4ED069556B9439D72061B0E3BEC15140 /* WCDebug.framework */,
+				93BC403F4DE2C495346EB696B04725D5 /* WCModel.framework */,
+				953A23D0E5AACD641B98D3B235FE1652 /* WCModule.framework */,
+				BCCA95DCEF53BFCEE401A88C1D70FE56 /* WCPlugin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31DBECFB23F4C1E1F79FCD9C313E38C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7FBC1D73C0E4B1B58BA1FC45E353A9D /* WCModel.modulemap */,
+				4C5770B78807C1D57872FD8F7DA3EA8E /* WCModel-dummy.m */,
+				E2EB21F6F90AB4ED49A1AF70F0F47527 /* WCModel-Info.plist */,
+				CC283FAEEA0B43933D9E85867298960E /* WCModel-prefix.pch */,
+				F740BFF0F1C9E8765A82D2CF293DC207 /* WCModel-umbrella.h */,
+				C7B551B61E4AD9A5977BFA43E18A35CD /* WCModel.debug.xcconfig */,
+				CE8ECB90D501DAE829A55513C60B3C43 /* WCModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WCModel";
+			sourceTree = "<group>";
+		};
+		C95E1E9618B576C1A12B99303631E944 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				14D0367C614F12F1E6D96DAB8C1C4A1F /* DTDebugFileController.h */,
+				02E0F4DFBC836D8FA8582EC80A089D74 /* DTDebugFileController.m */,
+				96ADA81BFD076F5BC5C88EE76AA95E47 /* DTDebugListCell.h */,
+				63BA73CD2CDEF33F1D1B6A1AF6C06FDB /* DTDebugListCell.m */,
+				97C86092971B7E3D74F95ADFD4E8484B /* DTDebugPhotosController.h */,
+				7DD90E0364D9A245DC24AFE65654BEB3 /* DTDebugPhotosController.m */,
+				00F344B6CAEE74F288357620EB80CC67 /* DTDebugPlistController.h */,
+				9C6137ED8F5308A4BC9EEFDCC8F320D7 /* DTDebugPlistController.m */,
+				0B8BB48D939014E99D133D0E87B19273 /* DTDebugTextController.h */,
+				9EA13E1CD4EC19B02732F75D28E04E97 /* DTDebugTextController.m */,
+			);
+			name = controller;
+			path = WCDebug/Classes/controller;
+			sourceTree = "<group>";
+		};
+		CE1C42F8CB8C7A248C7C829060965716 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1D01C938A7AB3E0B4F5D7372FD7E857D /* DTDebugHeader.h */,
+				0B555692FDF84C399E9E12FA08700261 /* DTDebugLogInfoView.h */,
+				45AF6E76CCCC223A8ADF829FEB9AE98D /* DTDebugLogInfoView.m */,
+				813167BE4F0B9EE33DCCB91D6C6250B9 /* DTDebugManager.h */,
+				80AC2A180CF994BC5F3546BCB9373A65 /* DTDebugManager.m */,
+				9C42E64ED9DC5D12373FA8058755C062 /* DTDebugUtil.h */,
+				A652015881E3FB5F5B11DA3251023431 /* DTDebugUtil.m */,
+				6AEAF5301008C206EC5267C4764027DA /* DTDebugViewController.h */,
+				1E24C3ECC250D2E4C3B0C85A531BF100 /* DTDebugViewController.m */,
+			);
+			name = Manager;
+			path = WCDebug/Classes/Manager;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				43738B6DCFD3BE1FB2C14130D9828170 /* Development Pods */,
+				7676687BCF7B7667C0EF79F2154032DC /* Frameworks */,
+				106382973F86A3A354EE0477E1D84C27 /* Pods */,
+				C16B40CA48EBF4791CE49F285B98242B /* Products */,
+				5FE58AD56D92A5C60482606379D200C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D99B549F9B625F6B7911C70236ADAD62 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7C99A1C43DF11658771A0F877CD16FF /* LICENSE */,
+				62773B8786B5302BEE0BE711278F5F8A /* README.md */,
+				9E94D6D15E3AB03F5ACD78E6202B1749 /* WCDebug.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EA0F845191B112408515493774EFFC09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				451C0BB6FD23C43988A66FE72E9551CC /* WCPluginResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB61FF68585FA8F792392B42C3A51EC3 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				B5805872C927AEBF7308FEE0825195C0 /* BPAppPreference.h */,
+				CBB26F2972A19FE0E5173925D84A380B /* BPAppPreference.m */,
+				3FF56A27259E9FFE45A0480994BF9852 /* DTAppPreferenceManager.h */,
+				5AFEDDC7367FAA1ABE608E537F1AF40F /* DTAppPreferenceManager.m */,
+				328C150A68D51FF21DD15C8BF860319F /* DTTodayManager.h */,
+				71C72CA3BD8E7A1B9C6A336811ABCF40 /* DTTodayManager.m */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0669D8DAA6165CDEDE1DF62B0D96E0B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82285F0D8AE76BAB870FD9922C32F6EF /* Pods-WCDebug_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A04389B25C17462C19F1E283072C761 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8541194A0CB07F6823BB79BC513C7824 /* BPAppPreference.h in Headers */,
+				A06307B4A6C2EC0414E36EC45A4E1B53 /* BPFileUtil.h in Headers */,
+				B6CB4F929856F3E74447D694EBBB7986 /* DTAppPreferenceManager.h in Headers */,
+				564D5BBE39F1FDD2C1B416C63AB271A2 /* DTFileManager.h in Headers */,
+				EFFFE4E7D1A977395F2DB1645E68E0BB /* DTTodayManager.h in Headers */,
+				E0C1980FD08032D33E62CECA71D6A8F9 /* WCModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6B4F42A64E3701DA528BAD886BF7C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD2726E5973567DBADDB4841AD867C7 /* NSArray+Utils.h in Headers */,
+				AF321B5E9B934E42D26978DF873BAA5B /* NSAttributedString+Utils.h in Headers */,
+				9729357969169822E07BA2727B792626 /* NSData+md5.h in Headers */,
+				4D1715AEDC7BFB59429B4D2A13816D71 /* NSDate+Utils.h in Headers */,
+				BFA3CA195E672ACDC4B909D1510C55D1 /* NSDictionary+Utils.h in Headers */,
+				225D10C52D3D0B822BE7D7ABDC10D9C3 /* NSJSONHelper.h in Headers */,
+				578C94D32143709A9A321B29D779829E /* NSObject+DTFix.h in Headers */,
+				C7C3B60EE3EAC502BD5C955A03A72297 /* NSObject+Utils.h in Headers */,
+				1D575449CB30EE5A0375EC80601EBD62 /* NSString+md5.h in Headers */,
+				C5314E257D9F75A29F98EF66265529EA /* NSString+Utils.h in Headers */,
+				307E2625697B9FC3616C149E06A8BFA5 /* NSURL+Utils.h in Headers */,
+				5B433FF8181AF39A3F96094A53223767 /* UIButton+Utils.h in Headers */,
+				F598CE8CBD1B838CD6FBF550338CB601 /* UIColor+Util.h in Headers */,
+				2D1801A76A0827DA233C46406853E498 /* UIDevice+Utils.h in Headers */,
+				F884F118CBA74E58B654E00F7642B038 /* UIImage+QRCode.h in Headers */,
+				932C67DDA13EDC5EB65C5ECA55E8CEFA /* UIImage+Utils.h in Headers */,
+				256022B136F189345A81E25E75E3F2C1 /* UIImageView+Utils.h in Headers */,
+				6E62495FB9A92B40AFD017F0CF0D510F /* UILabel+Utils.h in Headers */,
+				C74D8B055A455B22DE667442E6EDBBF9 /* UINavigationController+PopAfterPush.h in Headers */,
+				93D58BA085C23031B5F9B31622AB562C /* UITableView+Utils.h in Headers */,
+				91C5E2988E99517A2C20182FA4F193F6 /* UIView+animation.h in Headers */,
+				2CDAC1D517B680E5EB4A88A194320B28 /* UIView+Utils.h in Headers */,
+				B83D317F7D22D3711D0ABBD37AF92730 /* UIViewController+Utils.h in Headers */,
+				0014412FE69B334AB0FD5636AA1EE621 /* WCCategory+NS.h in Headers */,
+				961F29B3CFC0F8D7913CCF3EBD35029F /* WCCategory+UI.h in Headers */,
+				B978E2697885F7067F72A20B8F6948CA /* WCCategory-umbrella.h in Headers */,
+				940BC9B368FCD4BEF86436DD79601A22 /* WCCategory.h in Headers */,
+				6983F6A56321578685404F0D70E8BE50 /* WCDefine.h in Headers */,
+				0F52BF846F220302234B7D45585CA22A /* WCQuickUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7924266895881D923EF1D7C179976ECB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A39E1A1C43B316F5AD346FE7E263DDB /* RegexKitLite.h in Headers */,
+				8768AA9F2CC35EE5CEB9F3356D4C5FF9 /* WCModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84175D0635F581DC3E97DC76FFEC3B14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5075EB865B11B28B77D51999E942DA9E /* MBProgressHUD.h in Headers */,
+				14E5E48ED16862938928803F87F7C52B /* MBProgressHUDAdditions.h in Headers */,
+				0374929B914500E377D5186793E7385A /* WCPlugin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4585DB3EF3A43F944286F6B237B29AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F902C2CF5E4A8D7A658AE99451016C /* DTDebugFileController.h in Headers */,
+				DAFD0962F178F5F30ACBDC2BECC98060 /* DTDebugHeader.h in Headers */,
+				0321994DD714C6DFF6EE8C2DED60E677 /* DTDebugListCell.h in Headers */,
+				FAD62398F8E481948C52D0B0DB6C6935 /* DTDebugLogInfoView.h in Headers */,
+				9EC7B7E1734CE466C0775CD7EB5C2619 /* DTDebugManager.h in Headers */,
+				BC71803490177E2343DE006BE9CFEB0E /* DTDebugPhotosController.h in Headers */,
+				B3D8450B7F8FD75E9C5CB65ED43310B5 /* DTDebugPlistController.h in Headers */,
+				315E26EC61B82010DC1BC240786EF37A /* DTDebugTextController.h in Headers */,
+				5B3ECE973B2BCCA8CEBDC2852ABBBC4A /* DTDebugUtil.h in Headers */,
+				9E7F31E419A71C3B8F3AEC093E52585D /* DTDebugViewController.h in Headers */,
+				D175F735AE17D75DC46DD8B5CFF2C16A /* JPFPSStatus.h in Headers */,
+				8B897C0CD97647A8576002B1A4E6C9A7 /* WCDebug-umbrella.h in Headers */,
+				897CBD066100E639B3469F438668F580 /* WCDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3CE05C0BDCF27F2DA31934580479F05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995C0EFE600FF42FA1F031BDB215D7CF /* Pods-WCDebug_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49F90F41A533181E074FEC69C614C8DC /* WCPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAD0130734F57511F639535A1AA0493 /* Build configuration list for PBXNativeTarget "WCPlugin" */;
+			buildPhases = (
+				84175D0635F581DC3E97DC76FFEC3B14 /* Headers */,
+				04DA7C4DED282BD7C89340A85BD777C0 /* Sources */,
+				203A2A1AF7CBF1B005066124045A7650 /* Frameworks */,
+				B68B703EE5EB7EA8C833FB178D4B3D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCPlugin;
+			productName = WCPlugin;
+			productReference = BCCA95DCEF53BFCEE401A88C1D70FE56 /* WCPlugin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F668DA1672E718FA1A25D5EADE41323 /* Pods-WCDebug_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3793F60A2E9319F2651B9350D82A93DA /* Build configuration list for PBXNativeTarget "Pods-WCDebug_Example" */;
+			buildPhases = (
+				C3CE05C0BDCF27F2DA31934580479F05 /* Headers */,
+				D188BF47DC44EB6581E08B994B9F6FB3 /* Sources */,
+				C66716768BD74200FE7645330A7D5269 /* Frameworks */,
+				0B3414F7A0932C24F410D4E3E3F74169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D59A6EFEFCB8FD2B4CA3F1A8BE5EEA2 /* PBXTargetDependency */,
+				7F3F8E2C10F0D95565A3E0242EFB0F3A /* PBXTargetDependency */,
+				BFFC20BD05BE626C7C43E82EE7B260A6 /* PBXTargetDependency */,
+				0BB88496F2C8ECA946D801D3B14F3F6F /* PBXTargetDependency */,
+				530FF2635422EA2EF40ECEB6410C3E58 /* PBXTargetDependency */,
+			);
+			name = "Pods-WCDebug_Example";
+			productName = "Pods-WCDebug_Example";
+			productReference = D92A1B9808A5D49868E9CD5BCA42FAD9 /* Pods_WCDebug_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		730A3D38A9642ECC27E84A8F00ADD1CF /* Pods-WCDebug_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0044DAB5C59C0937890DE9518E7F73 /* Build configuration list for PBXNativeTarget "Pods-WCDebug_Tests" */;
+			buildPhases = (
+				0669D8DAA6165CDEDE1DF62B0D96E0B1 /* Headers */,
+				C95AD5256478FA95BEC896504B5C7A9B /* Sources */,
+				CF1745D7460C77EC89A8BFD212E4D89C /* Frameworks */,
+				F9F25120FA0B1FA45B0F6BDC6E460004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613218C3DB7BAAB7A42360D55D07D19B /* PBXTargetDependency */,
+			);
+			name = "Pods-WCDebug_Tests";
+			productName = "Pods-WCDebug_Tests";
+			productReference = E6B894E831822C1A0E1B843020055C83 /* Pods_WCDebug_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1278A8B2E15B22AC8BBA7B4451402F8 /* WCModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017FD46ECCDAAB4F359B2C0D5A88E686 /* Build configuration list for PBXNativeTarget "WCModule" */;
+			buildPhases = (
+				7924266895881D923EF1D7C179976ECB /* Headers */,
+				F50873C5E6289EF4185A61625B14555B /* Sources */,
+				0D04127ACD2812B990E1A84A44C56981 /* Frameworks */,
+				0A934B259FFBBB4AF4606559D45D0E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCModule;
+			productName = WCModule;
+			productReference = 953A23D0E5AACD641B98D3B235FE1652 /* WCModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9CBD0C0575FEB9B3905D59A8E15941B /* WCModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC618EEE9390246D6253029DE43DDAA4 /* Build configuration list for PBXNativeTarget "WCModel" */;
+			buildPhases = (
+				2A04389B25C17462C19F1E283072C761 /* Headers */,
+				0C90F56AEA769F7AD5522D55D03DF0BB /* Sources */,
+				51D756731D971A82D7BD4161EAD32B5E /* Frameworks */,
+				4116D399DD4FDEBFD1D8F3FB4534FF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A366454A8AFA30F82181EBF85EAFA302 /* PBXTargetDependency */,
+				C69412D473E8862FBD9576809849C92E /* PBXTargetDependency */,
+			);
+			name = WCModel;
+			productName = WCModel;
+			productReference = 93BC403F4DE2C495346EB696B04725D5 /* WCModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBD76F156C3E6CD5E31986CE16D7EBDD /* WCDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5889FB241A01F4C7F2C22660371D45E5 /* Build configuration list for PBXNativeTarget "WCDebug" */;
+			buildPhases = (
+				B4585DB3EF3A43F944286F6B237B29AF /* Headers */,
+				42156E50AF3CE9E87E77EC5211921D6B /* Sources */,
+				84FAB77008199F9A9CBAC7B5A093C101 /* Frameworks */,
+				D5D2D06061A828BACBDD6BE89282D567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C5E12E691B1C76F24AE233BD8F8A1C /* PBXTargetDependency */,
+				FA0A3928DA6E278D205CD0375ED1C441 /* PBXTargetDependency */,
+				56C3BA1E95F3890952C724966B6FDA2F /* PBXTargetDependency */,
+			);
+			name = WCDebug;
+			productName = WCDebug;
+			productReference = 4ED069556B9439D72061B0E3BEC15140 /* WCDebug.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E029C17DCD42C24819019EFDEDE585EF /* WCCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827153C440048E9D7D73BAA9BA1BBF64 /* Build configuration list for PBXNativeTarget "WCCategory" */;
+			buildPhases = (
+				6B6B4F42A64E3701DA528BAD886BF7C6 /* Headers */,
+				B383EC7F9A74A6D76B6FFD3C844F5167 /* Sources */,
+				52DF40A89DF54CB3CDE62C740B8CB3B6 /* Frameworks */,
+				CB6FEB2AD87DFB80FA5927F384DDE052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCCategory;
+			productName = WCCategory;
+			productReference = 14B4C86B42062C9B3F8ACE8FF370C0FE /* WCCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C16B40CA48EBF4791CE49F285B98242B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F668DA1672E718FA1A25D5EADE41323 /* Pods-WCDebug_Example */,
+				730A3D38A9642ECC27E84A8F00ADD1CF /* Pods-WCDebug_Tests */,
+				E029C17DCD42C24819019EFDEDE585EF /* WCCategory */,
+				DBD76F156C3E6CD5E31986CE16D7EBDD /* WCDebug */,
+				D9CBD0C0575FEB9B3905D59A8E15941B /* WCModel */,
+				C1278A8B2E15B22AC8BBA7B4451402F8 /* WCModule */,
+				49F90F41A533181E074FEC69C614C8DC /* WCPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A934B259FFBBB4AF4606559D45D0E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3414F7A0932C24F410D4E3E3F74169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4116D399DD4FDEBFD1D8F3FB4534FF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68B703EE5EB7EA8C833FB178D4B3D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC22A2568BD1AFD61F8F2498793A589D /* WCPluginResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FEB2AD87DFB80FA5927F384DDE052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D2D06061A828BACBDD6BE89282D567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F25120FA0B1FA45B0F6BDC6E460004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DA7C4DED282BD7C89340A85BD777C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E35069EEDB088E8E140464649AA3FB /* MBProgressHUD.m in Sources */,
+				5032D8EA4DF13F9544BE419A114F600D /* MBProgressHUDAdditions.m in Sources */,
+				B1DC30E76917BD97F71E7F77EDD91DB4 /* WCPlugin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C90F56AEA769F7AD5522D55D03DF0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5876E0040B825AE0431341C4C43BEDCD /* BPAppPreference.m in Sources */,
+				1C85787D5D31847B29A4158B443AD261 /* BPFileUtil.m in Sources */,
+				83E5632F77A1FE7359BAA86E0DE522BA /* DTAppPreferenceManager.m in Sources */,
+				8EA0C6DCCCE86A0C34E373E104BC45FC /* DTFileManager.m in Sources */,
+				A7ED067C839A4E71C93119181661D6C7 /* DTTodayManager.m in Sources */,
+				7662A70DBF7C2AE1B61A74BBFDBA6CAD /* WCModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42156E50AF3CE9E87E77EC5211921D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C73727773C502C1F96D78D2A8B5166F /* DTDebugFileController.m in Sources */,
+				125982A01C72F4D65910CB74DFA5D03F /* DTDebugListCell.m in Sources */,
+				517783BDF22BA741DBB2BBD6B743B741 /* DTDebugLogInfoView.m in Sources */,
+				207CAA971143C130B24154E8EB67032B /* DTDebugManager.m in Sources */,
+				86221E53F9C241CFC080E373B9CC0ABD /* DTDebugPhotosController.m in Sources */,
+				A09E49C92435BECDA37CCD4826786C65 /* DTDebugPlistController.m in Sources */,
+				E62367200FCBECAD2EA764F1C8CC738A /* DTDebugTextController.m in Sources */,
+				F10A88DD1CFC77F262A349AEA623C066 /* DTDebugUtil.m in Sources */,
+				3B849E37ED9CCF0148F302CC1BBF01F9 /* DTDebugViewController.m in Sources */,
+				81C5D46F0E37AD8C68F5AAB74815DCCD /* JPFPSStatus.m in Sources */,
+				D02DA73854ED78C60AE878091B8B255F /* WCDebug-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B383EC7F9A74A6D76B6FFD3C844F5167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EFE2FAE910045AD89B115A3298A50A /* NSArray+Utils.m in Sources */,
+				AF2B4ECADF9C0D8E65464E9096F12EDF /* NSAttributedString+Utils.m in Sources */,
+				4CDF3A88775920C0AA689B005227BAAF /* NSData+md5.m in Sources */,
+				7FB3C255120CEB03EA9D8CAE417D20E5 /* NSDate+Utils.m in Sources */,
+				2F211FBA5100B40BD6B596DD18F865DA /* NSDictionary+Utils.m in Sources */,
+				3D60E72C37EABA9C28DF5819FBB76976 /* NSJSONHelper.m in Sources */,
+				6B263A7829E38F9AFF23EDF7C9E45C64 /* NSObject+DTFix.m in Sources */,
+				463E4C94F6AEBE9A22F8949E47937332 /* NSObject+Utils.m in Sources */,
+				6047021B8EC83352742F7A5343A90DA0 /* NSString+md5.m in Sources */,
+				1F7082CA7D589689A1E28AF916E12CB1 /* NSString+Utils.m in Sources */,
+				2363E9E1D472DA7C638F25C901A4F6C6 /* NSURL+Utils.m in Sources */,
+				9C027D4253162D7D791373C2EE1CB3CC /* UIButton+Utils.m in Sources */,
+				5EFC6CF8D32DE781A2B6B9D8A18BACF2 /* UIColor+Util.m in Sources */,
+				1CC6B7696633DB5A91EF074F28D05C81 /* UIDevice+Utils.m in Sources */,
+				7F57DA10D93DEFBB5D10730D59663751 /* UIImage+QRCode.m in Sources */,
+				EBFCA527523808D90BEBE2271DE5A67D /* UIImage+Utils.m in Sources */,
+				17AC95143DBF627639C1FC5DDDE71836 /* UIImageView+Utils.m in Sources */,
+				30DFCB1B2868D0A9D95E34C109E44E7C /* UILabel+Utils.m in Sources */,
+				D66F04D9E57BED46B917E9F462505892 /* UINavigationController+PopAfterPush.m in Sources */,
+				6D27BA2C704ECABC37C222715B1B543C /* UITableView+Utils.m in Sources */,
+				EF0C38A14EE8B9ACB46ABCC2E38A8D96 /* UIView+animation.m in Sources */,
+				866906AF06A5CED05D389C67DFCE1E6D /* UIView+Utils.m in Sources */,
+				9C11ABE10A496ABF35E01E95D3A719F0 /* UIViewController+Utils.m in Sources */,
+				4BA621DFFC41B1EEDF51CE597305C4B6 /* WCCategory-dummy.m in Sources */,
+				A3353DDFAC6A298B9DAD00884371F0BA /* WCQuickUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95AD5256478FA95BEC896504B5C7A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B99A4DDA85A5FD743177845D02F3FB2 /* Pods-WCDebug_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D188BF47DC44EB6581E08B994B9F6FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385B591C937944458199E9112EDBAF2D /* Pods-WCDebug_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50873C5E6289EF4185A61625B14555B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA8ABF50430F86546E4D562558B3129 /* RegexKitLite.m in Sources */,
+				2FB0055033BBCBD629720134C05E72A9 /* WCModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BB88496F2C8ECA946D801D3B14F3F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCModule;
+			target = C1278A8B2E15B22AC8BBA7B4451402F8 /* WCModule */;
+			targetProxy = 35581F61360EC00C2B4346F2990BC7DA /* PBXContainerItemProxy */;
+		};
+		24C5E12E691B1C76F24AE233BD8F8A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCCategory;
+			target = E029C17DCD42C24819019EFDEDE585EF /* WCCategory */;
+			targetProxy = C01EF7A47A021A7A84625F88A1743722 /* PBXContainerItemProxy */;
+		};
+		4D59A6EFEFCB8FD2B4CA3F1A8BE5EEA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCCategory;
+			target = E029C17DCD42C24819019EFDEDE585EF /* WCCategory */;
+			targetProxy = 595ADE90E32DF2A33C574A5DD34D4ABD /* PBXContainerItemProxy */;
+		};
+		530FF2635422EA2EF40ECEB6410C3E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCPlugin;
+			target = 49F90F41A533181E074FEC69C614C8DC /* WCPlugin */;
+			targetProxy = 5CADD9EF69319FC97458233459631C9D /* PBXContainerItemProxy */;
+		};
+		56C3BA1E95F3890952C724966B6FDA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCPlugin;
+			target = 49F90F41A533181E074FEC69C614C8DC /* WCPlugin */;
+			targetProxy = 536B04FFE20CC9F9D2A573C16EA67716 /* PBXContainerItemProxy */;
+		};
+		613218C3DB7BAAB7A42360D55D07D19B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WCDebug_Example";
+			target = 4F668DA1672E718FA1A25D5EADE41323 /* Pods-WCDebug_Example */;
+			targetProxy = 8A036CF94D048872C63B16FB9692AD14 /* PBXContainerItemProxy */;
+		};
+		7F3F8E2C10F0D95565A3E0242EFB0F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCDebug;
+			target = DBD76F156C3E6CD5E31986CE16D7EBDD /* WCDebug */;
+			targetProxy = 4B0AAAA8EC1A2AC806C5583606CFF093 /* PBXContainerItemProxy */;
+		};
+		A366454A8AFA30F82181EBF85EAFA302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCCategory;
+			target = E029C17DCD42C24819019EFDEDE585EF /* WCCategory */;
+			targetProxy = AA96652EEA0438CE3DABDF1227815B0A /* PBXContainerItemProxy */;
+		};
+		BFFC20BD05BE626C7C43E82EE7B260A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCModel;
+			target = D9CBD0C0575FEB9B3905D59A8E15941B /* WCModel */;
+			targetProxy = 8922BA728D0A04A1731F03DB007D62F2 /* PBXContainerItemProxy */;
+		};
+		C69412D473E8862FBD9576809849C92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCModule;
+			target = C1278A8B2E15B22AC8BBA7B4451402F8 /* WCModule */;
+			targetProxy = 89CA01A8676E812185B7050373B2D132 /* PBXContainerItemProxy */;
+		};
+		FA0A3928DA6E278D205CD0375ED1C441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCModel;
+			target = D9CBD0C0575FEB9B3905D59A8E15941B /* WCModel */;
+			targetProxy = 637BFCE1046523888CB4726EDAEA85BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005595EB9BF8CB35408B7F4771532D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FC4D71AA64E7B270CA701D94A44E97 /* Pods-WCDebug_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WCDebug_Tests/Pods-WCDebug_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WCDebug_Tests/Pods-WCDebug_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23348D6ACE4E606A01C7C2F7968D8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A279DD75913152C831FEA1E313EBCA74 /* WCDebug.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCDebug/WCDebug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCDebug/WCDebug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCDebug/WCDebug.modulemap";
+				PRODUCT_MODULE_NAME = WCDebug;
+				PRODUCT_NAME = WCDebug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		388CFFEE61E25B1FD65FFB2334806A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022F53009B86DFE686697BEB80623388 /* WCCategory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCCategory/WCCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCCategory/WCCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCCategory/WCCategory.modulemap";
+				PRODUCT_MODULE_NAME = WCCategory;
+				PRODUCT_NAME = WCCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86CC06EF7830A739436656FB9B427589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8F62D11CF47C396CA98235816BB0FA /* WCModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCModule/WCModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCModule/WCModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCModule/WCModule.modulemap";
+				PRODUCT_MODULE_NAME = WCModule;
+				PRODUCT_NAME = WCModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92D3992E7226C343A51B9787B8C5C50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92208877DB8CBBE93A2D28536EC58E2C /* WCPlugin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCPlugin/WCPlugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCPlugin/WCPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCPlugin/WCPlugin.modulemap";
+				PRODUCT_MODULE_NAME = WCPlugin;
+				PRODUCT_NAME = WCPlugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AD44D3A89EE6415B7460D6C11455852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FFE67F781C57FB0A2F48D2836C13ED /* Pods-WCDebug_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WCDebug_Example/Pods-WCDebug_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WCDebug_Example/Pods-WCDebug_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2DA3F29178929EB22F89D114BB64FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8ECB90D501DAE829A55513C60B3C43 /* WCModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCModel/WCModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCModel/WCModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCModel/WCModel.modulemap";
+				PRODUCT_MODULE_NAME = WCModel;
+				PRODUCT_NAME = WCModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD2ADB3E0A87DBCEFBF346D7A1D5D47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B735A3048E667AA2C94D1E51C4D70E03 /* WCCategory.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCCategory/WCCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCCategory/WCCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCCategory/WCCategory.modulemap";
+				PRODUCT_MODULE_NAME = WCCategory;
+				PRODUCT_NAME = WCCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCE9E18E4AE171BE18758897B9F10404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F81AD7229605D3DAEE11164B3DF46FF /* WCDebug.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCDebug/WCDebug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCDebug/WCDebug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCDebug/WCDebug.modulemap";
+				PRODUCT_MODULE_NAME = WCDebug;
+				PRODUCT_NAME = WCDebug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDC00A40DEFF786E668E3D56302F659F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFF0AE4B6CEBDDF8A0AAA666181C976 /* Pods-WCDebug_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WCDebug_Example/Pods-WCDebug_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WCDebug_Example/Pods-WCDebug_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFAF0A75B5F342406452D149BE6ED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3959B9746556CB3DD099FFCE74A71266 /* WCModule.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCModule/WCModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCModule/WCModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCModule/WCModule.modulemap";
+				PRODUCT_MODULE_NAME = WCModule;
+				PRODUCT_NAME = WCModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC6542330BA9FB9657A8B7DDF9841559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A85B82F61BF332C7B543B18E56467C4 /* Pods-WCDebug_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WCDebug_Tests/Pods-WCDebug_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WCDebug_Tests/Pods-WCDebug_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD2EC0D111AEA35AF220B9EAA9CDB5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0567076E2C8940F16BD398C0C6CB61A3 /* WCPlugin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCPlugin/WCPlugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCPlugin/WCPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCPlugin/WCPlugin.modulemap";
+				PRODUCT_MODULE_NAME = WCPlugin;
+				PRODUCT_NAME = WCPlugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E13BA631E060602EC0DE70C76AA229A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B551B61E4AD9A5977BFA43E18A35CD /* WCModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCModel/WCModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCModel/WCModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WCModel/WCModel.modulemap";
+				PRODUCT_MODULE_NAME = WCModel;
+				PRODUCT_NAME = WCModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017FD46ECCDAAB4F359B2C0D5A88E686 /* Build configuration list for PBXNativeTarget "WCModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFAF0A75B5F342406452D149BE6ED81 /* Debug */,
+				86CC06EF7830A739436656FB9B427589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3793F60A2E9319F2651B9350D82A93DA /* Build configuration list for PBXNativeTarget "Pods-WCDebug_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD44D3A89EE6415B7460D6C11455852 /* Debug */,
+				BDC00A40DEFF786E668E3D56302F659F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5889FB241A01F4C7F2C22660371D45E5 /* Build configuration list for PBXNativeTarget "WCDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9E18E4AE171BE18758897B9F10404 /* Debug */,
+				23348D6ACE4E606A01C7C2F7968D8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827153C440048E9D7D73BAA9BA1BBF64 /* Build configuration list for PBXNativeTarget "WCCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388CFFEE61E25B1FD65FFB2334806A67 /* Debug */,
+				AD2ADB3E0A87DBCEFBF346D7A1D5D47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC618EEE9390246D6253029DE43DDAA4 /* Build configuration list for PBXNativeTarget "WCModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13BA631E060602EC0DE70C76AA229A4 /* Debug */,
+				A2DA3F29178929EB22F89D114BB64FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0044DAB5C59C0937890DE9518E7F73 /* Build configuration list for PBXNativeTarget "Pods-WCDebug_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6542330BA9FB9657A8B7DDF9841559 /* Debug */,
+				005595EB9BF8CB35408B7F4771532D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAD0130734F57511F639535A1AA0493 /* Build configuration list for PBXNativeTarget "WCPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D3992E7226C343A51B9787B8C5C50F /* Debug */,
+				DD2EC0D111AEA35AF220B9EAA9CDB5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
